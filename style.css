@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+}
+
+/* nav Elements */
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px; 
+    /* height: 10vh; */
+    background-color: rgb(42, 119, 152);
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+#signIn{
+    margin-left: auto;
+}
+/* About elements */
+.about{
+    display: flex;
+    background-color: rgb(72, 139, 168);
+    /* margin: 0px; */
+    height: 30vh;
+    flex-direction: column;
+}
+.about>p{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* cards container */
+
+.container{
+    background-color: rgb(15, 101, 138);
+    display: grid;
+    height: 60vh;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+
+}
+
+.box{
+    background-color: #444;
+    display: flex;
+    padding: 100px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+    display: flex ;
+    background-color: rgb(7, 80, 111) ;
+    justify-content: end;
+
